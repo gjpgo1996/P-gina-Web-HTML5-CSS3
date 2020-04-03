@@ -18,7 +18,7 @@
     <div class="wrapper">
 
         <!-- banner -->
-        <div class="banner-wrapper">
+        <div id="banner-wrapper">
             <header>
                 <div class="header-inner">
                     <a href="index.html" id="logo">
@@ -31,19 +31,19 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="index.html">Inicio</a>
+                                <a href="index.html" class="current">Inicio</a>
                             </li>
                             <li>
-                                <a href="#skills">Skills</a>
+                                <a href="#skills" class="current">Skills</a>
                             </li>
                             <li>
-                                <a href="#portfolio">Portafolio</a>
+                                <a href="#portfolio" class="current">Portafolio</a>
                             </li>
                             <li>
-                                <a href="#services">Servicios</a>
+                                <a href="#services" class="current">Servicios</a>
                             </li>
                             <li>
-                                <a href="#contact">Contacto</a>
+                                <a href="#contact" class="current">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -62,7 +62,7 @@
     </div>
 
     <section class="one-third" id="skills">
-        <div clas="icon-wrap">
+        <div class="icon-wrap">
             <i class="fa fa-desktop"></i>
         </div>
         <h3>Diseño Web</h3>
@@ -73,7 +73,7 @@
     </section>
 
     <section class="one-third" id="skills">
-        <div clas="icon-wrap">
+        <div class="icon-wrap">
             <i class="fa fa-pencil-square-o"></i>
         </div>
         <h3>Diseño Gráfico</h3>
@@ -84,7 +84,7 @@
     </section>
 
     <section class="one-third" id="skills">
-        <div clas="icon-wrap">
+        <div class="icon-wrap">
             <i class="fa fa-file-code-o"></i>
         </div>
         <h3>Desarrollo Web</h3>
@@ -94,6 +94,23 @@
         Est tenetur officiis eum vero possimus, maiores autem voluptates?</p>
     </section>
 
+    <div class="clearfix-padding"></div>
+
+    <!--PORTFOLIO-->
+    <section class="left-col" id="portfolio">
+        <h3>Portafolio</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Facere earum consequuntur ut veritatis ducimus, ab quam corrupti rerum cupiditate aperiam,
+        assumenda totam, rem delectus nostrum doloribus esse architecto placeat nisi.</p>
+    </section>
+
+    <section class="sidebar">
+        <img src="./img/pics/fazt_logo.png" alt="">
+    </section>
+
+    <div class="clearfix-padding"></div>
+
+    <!--SERVICES-->
     <div class="one-third-padding" id="services">
         <h3>Nuestros Servicios 1</h3>
         <img src="./img/pics/image1.png">
@@ -109,12 +126,13 @@
         <img src="./img/pics/image3.png">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, laborum.</p>
     </div>
+    
 
     <footer>
         <div class="banner-wrapper">
             <div class="icon-text">
                 <div class="icon-text-icon">
-                    <ul>
+                    <ul class="footer-nav">
                     <li>
                         <a href="index-html">Inicio</a>
                     </li>
@@ -134,7 +152,7 @@
                 </div>
 
                 <div class="icon-text-text">
-                    <ul>
+                    <ul class="social">
                         <li>
                             <a href="mailto:contacto@misitioweb123.com" target="_blank">
                             <i class="fa fa-envelope-o"></i>
@@ -166,7 +184,7 @@
         </div>
     </footer>
 
-    <footer class="second-footer">
+    <footer class="footer-second">
     <p>
     &copy; <a href="https://www.instagram.com/tellmepipo/" target="_blank">Guevva</a>
     </p>
